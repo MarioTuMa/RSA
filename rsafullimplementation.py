@@ -126,7 +126,7 @@ def intotext(num):
     return result
 
 
-textmsg = "FL4G"
+textmsg = "HELLO"
 print("original message in text: ",textmsg)
 message = texttoint(textmsg)
 print("original message numeric (m): ",message)
