@@ -48,7 +48,7 @@ def intotext(num):
         num //= 256
     return result
 
-N = 992911372273
+N = 699941932777
 e = 131071
 
 p = "prime1"
@@ -56,6 +56,6 @@ q = "prime2"
 
 d = inverse((p-1)*(q-1),e)
 
-interceptedmsg = 454753915187
+interceptedmsg = 80316608948
 
 print(intotext(binaryExpo(interceptedmsg,d,p*q)))
