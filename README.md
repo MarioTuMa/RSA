@@ -1,6 +1,9 @@
 # RSA
 This repo is a demonstration of RSA and the simplest breaking attack of factoring the public key.
 
+## Presentation
+https://docs.google.com/presentation/d/11RIO7uk-fqdURX9uuphMKLPj-KD2EnvXXFjH87mOsns/edit?usp=sharing
+
 ## rsafullimplementation.py
 
 This file generates a key using the Rabin-Miller test, then uses that key to encrypt and then decrypt the message "HELLO"
